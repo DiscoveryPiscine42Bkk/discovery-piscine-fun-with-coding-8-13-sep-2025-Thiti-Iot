@@ -51,9 +51,9 @@
       const colors = ["red", "green", "blue"];
       let width = parseInt(ballon.style.width) + 10;
       let height = parseInt(ballon.style.height) + 10;
-      if (width < 200) {
-        ballon.style.width = 200 + "px";
-        ballon.style.height = 200 + "px";
+      if (width > 420) {
+        ballon.style.width = "200px";
+        ballon.style.height = "200px";
         ballon.style.backgroundColor = "red";
       } else {
         ballon.style.width = width + "px";
