@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  color: #222;
+}
+
+p.lead {
+  color: #444;
+}
+
+.btn {
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 18px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+#about img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
